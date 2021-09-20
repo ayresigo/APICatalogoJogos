@@ -31,7 +31,7 @@ namespace APICatalogoJogos.Repositories
 
         public Task Inserir(Jogo jogo)
         {
-            jogos.Add(jogo.Id, jogo);
+            jogos.Add(jogo.Id, jogo); 
             return Task.CompletedTask;
         }
 
