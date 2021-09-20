@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igor\\source\\repos\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj": {}
+    "D:\\GitHub\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igor\\source\\repos\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj": {
+    "D:\\GitHub\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igor\\source\\repos\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj",
+        "projectUniqueName": "D:\\GitHub\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj",
         "projectName": "APICatalogoJogos",
-        "projectPath": "C:\\Users\\igor\\source\\repos\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj",
-        "packagesPath": "C:\\Users\\igor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igor\\source\\repos\\APICatalogoJogos\\APICatalogoJogos\\obj\\",
+        "projectPath": "D:\\GitHub\\APICatalogoJogos\\APICatalogoJogos\\APICatalogoJogos.csproj",
+        "packagesPath": "C:\\Users\\ayresigo\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\APICatalogoJogos\\APICatalogoJogos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ayresigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net50": {
             "projectReferences": {}
           }
         },
@@ -37,33 +36,19 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }

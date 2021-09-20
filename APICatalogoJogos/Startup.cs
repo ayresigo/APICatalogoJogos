@@ -30,6 +30,7 @@ namespace APICatalogoJogos
         {
             services.AddScoped<IJogoService, JogoService>();
             services.AddScoped<IJogoRepository, JogoRepository>();
+            // services.AddScoped<IJogoRepository, JogoSQLServerRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
